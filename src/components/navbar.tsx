@@ -13,13 +13,13 @@ export default function Navbar() {
             <div className="lg:hidden" >
                 <MobileNav />
             </div>
-            <Image src="/TP-logo.png" width={150} height={36} alt="Tyreplex logo" />
+            <Image src="/TP-logo.png" width={100} height={36} alt="Tyreplex logo" />
 
         </div>
         <div className="hidden lg:flex items-center gap-6" >
             {
                 navItems.map((link, index) => (
-                    <Link key={index} href={link.href} className='text-sm font-medium' > {link.name}</Link>
+                    <Link key={index} href={link.href} className='text-sm font-medium hover:underline' > {link.name}</Link>
                 ))
             }
         </div>

@@ -27,7 +27,7 @@ export default function PaymentMode(){
     return(
         <section className='section-container' >
             <h2 className='font-bold mb-3' >Payment Mode</h2>
-            <div className='space-y-3 grid grid-cols-2'>
+            <div className=' grid grid-cols-1 md:grid-cols-2 gap-3'>
 
 
         {

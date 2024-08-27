@@ -58,7 +58,7 @@ export default function DealsIn() {
         <h2 className='font-bold mb-1' >Deals In</h2>
 
             <div className="overflow-hidden py-2" ref={emblaRef}>
-            <div className="flex gap-6">
+            <div className="flex gap-6" >
 
                 {
                     reviews.map((item) => {

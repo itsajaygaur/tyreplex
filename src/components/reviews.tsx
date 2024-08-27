@@ -47,7 +47,7 @@ export default function Reviews() {
         {
             reviews.map((item) => {
                 return (
-                    <div className="flex-[0_0_auto] bg-white min-w-0 border rounded-md p-5 max-w-sm" key={item.id}>
+                    <div className="flex-[0_0_auto] bg-white min-w-0 border rounded-md p-5 max-w-sm cursor-grab" key={item.id}>
                     <div className="flex gap-2 items-center mb-5"> 
                         <Image  className='aspect-square rounded-full' src={item.image} alt="Image 1"  width={40} height={40} />
                         <p className='font-semibold' >{item.name}</p>

@@ -29,7 +29,7 @@ export default function HeroCarousel() {
 
   return (
     <div className="overflow-hidden" ref={emblaRef}>
-      <div className="flex gap-6">
+      <div className="flex gap-6 cursor-grab">
 
         {
             items.map((item) => {

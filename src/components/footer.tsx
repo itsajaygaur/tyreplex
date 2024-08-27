@@ -19,7 +19,7 @@ export default function Footer(){
     return(
         <footer className='' >
 
-            <div className='flex flex-col items-center bg-yellow-200 p-5 rounded-lg mb-10'>
+            <div className='flex flex-col items-center bg-yellow-200 p-5 rounded-lg mb-2'>
 
                 <Image src="/haveQuestion-bg.webp" className='mb-2 ' width={150} height={150} alt="Have questions icon"  /> 
                 <p className='font-bold text-lg mb-4' >Have a question about tyres?</p>
