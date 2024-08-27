@@ -25,9 +25,9 @@ const paymentMode = [
 
 export default function PaymentMode(){
     return(
-        <section className='mb-10 bg-gray-100 rounded-lg p-10' >
+        <section className='section-container' >
             <h2 className='font-bold mb-3' >Payment Mode</h2>
-            <div className='space-y-3'>
+            <div className='space-y-3 grid grid-cols-2'>
 
 
         {

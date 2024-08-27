@@ -67,7 +67,7 @@ const tyres = [
 
 export default function TyresSold() {
   return (
-    <section className='mb-10 bg-gray-100 rounded-lg p-10' >
+    <section className='section-container' >
         <h2 className="font-bold mb-3" >Tyres sold by this dealer</h2>
 
 <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4'>

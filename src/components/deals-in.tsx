@@ -53,7 +53,7 @@ export default function DealsIn() {
 
 
   return (
-    <div className='mb-10 bg-gray-100 rounded-lg p-10' >
+    <div className='section-container' >
 
         <h2 className='font-bold mb-1' >Deals In</h2>
 

@@ -25,7 +25,7 @@ const items = [
 export default function HeroCarousel() {
 
 
-    const [emblaRef] = useEmblaCarousel({ loop: false, dragFree: true })
+    const [emblaRef] = useEmblaCarousel({ loop: false, dragFree: true,  })
 
   return (
     <div className="overflow-hidden" ref={emblaRef}>

@@ -24,7 +24,7 @@ export default function ServicesOffered() {
 
 
   return (
-    <div className='mb-10 bg-gray-100 rounded-lg p-10' >
+    <div className='section-container' >
 
         <h2 className='font-bold mb-1' >Services offered by this dealer</h2>
 
@@ -34,7 +34,7 @@ export default function ServicesOffered() {
                 {
                     services.map((item) => {
                         return (
-                            <div className="flex-[0_0_auto] bg-white min-w-0 border rounded-md px-16 py-10 shadow-sm max-w-sm flex flex-col items-center justify-center " key={item.id}> 
+                            <div className="flex-[0_0_auto] bg-white min-w-0 border hover:bg-gray-200 rounded-md px-16 py-10 shadow-sm max-w-sm flex flex-col items-center justify-center " key={item.id}> 
                                 <Image  className='mb-2' src={item.image} alt="Image 1"  width={120} height={120} />
                                 <p className='font-semibold my-4' > { item.name}</p>
                                 <Button>Book Now</Button>
